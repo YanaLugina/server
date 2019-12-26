@@ -152,7 +152,8 @@
       "channelFilter",
       "BunyanLogger",
       "io",
-      "ResendMeta"
+      "ResendMeta",
+      "FilterResult"
     ]
   },
   "sharec": {
