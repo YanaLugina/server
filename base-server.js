@@ -1055,6 +1055,10 @@ module.exports = BaseServer
  */
 
 /**
+ * @typedef {channelFilter|undefined} FilterResult
+ */
+
+/**
  * @callback authenticator
  * @param {string} userId User ID.
  * @param {any} credentials The client credentials.
@@ -1110,7 +1114,7 @@ module.exports = BaseServer
  * @param {ChannelContext} ctx Information about node, who create this action.
  * @param {Action} action The action data.
  * @param {Meta} meta The action metadata.
- * @return {channelFilter|undefined} Actions filter.
+ * @return {Promise<FilterResult>|FilterResult} Actions filter.
  */
 
 /**
